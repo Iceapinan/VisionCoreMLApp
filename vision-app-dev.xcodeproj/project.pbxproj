@@ -10,6 +10,7 @@
 		F65757831F7B7CD80061A571 /* RoundedShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65757821F7B7CD80061A571 /* RoundedShadowView.swift */; };
 		F65757851F7B7E630061A571 /* RoundedShadowImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65757841F7B7E630061A571 /* RoundedShadowImageView.swift */; };
 		F65757871F7B7EC20061A571 /* RoundedShadowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65757861F7B7EC20061A571 /* RoundedShadowButton.swift */; };
+		F67303F11F7BA1200041D341 /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F67303F01F7BA11B0041D341 /* SqueezeNet.mlmodel */; };
 		F6A4DBB01F79A746000DC6D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A4DBAF1F79A746000DC6D6 /* AppDelegate.swift */; };
 		F6A4DBB21F79A746000DC6D6 /* CameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A4DBB11F79A746000DC6D6 /* CameraVC.swift */; };
 		F6A4DBB51F79A746000DC6D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6A4DBB31F79A746000DC6D6 /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 		F65757821F7B7CD80061A571 /* RoundedShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowView.swift; sourceTree = "<group>"; };
 		F65757841F7B7E630061A571 /* RoundedShadowImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowImageView.swift; sourceTree = "<group>"; };
 		F65757861F7B7EC20061A571 /* RoundedShadowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowButton.swift; sourceTree = "<group>"; };
+		F67303F01F7BA11B0041D341 /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SqueezeNet.mlmodel; sourceTree = "<group>"; };
 		F6A4DBAC1F79A746000DC6D6 /* vision-app-dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "vision-app-dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6A4DBAF1F79A746000DC6D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F6A4DBB11F79A746000DC6D6 /* CameraVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraVC.swift; sourceTree = "<group>"; };
@@ -59,6 +61,14 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		F67303F21F7BA17D0041D341 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F67303F01F7BA11B0041D341 /* SqueezeNet.mlmodel */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		F6A4DBA31F79A746000DC6D6 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +88,7 @@
 		F6A4DBAE1F79A746000DC6D6 /* vision-app-dev */ = {
 			isa = PBXGroup;
 			children = (
+				F67303F21F7BA17D0041D341 /* Resources */,
 				F65757811F7B7A0D0061A571 /* Controller */,
 				F65757801F7B79FE0061A571 /* View */,
 				F6A4DBAF1F79A746000DC6D6 /* AppDelegate.swift */,
@@ -162,6 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F65757851F7B7E630061A571 /* RoundedShadowImageView.swift in Sources */,
+				F67303F11F7BA1200041D341 /* SqueezeNet.mlmodel in Sources */,
 				F65757871F7B7EC20061A571 /* RoundedShadowButton.swift in Sources */,
 				F6A4DBB21F79A746000DC6D6 /* CameraVC.swift in Sources */,
 				F6A4DBB01F79A746000DC6D6 /* AppDelegate.swift in Sources */,
@@ -305,6 +317,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QD7C83FMRS;
 				INFOPLIST_FILE = "vision-app-dev/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.IceApinan.vision-app-dev";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -320,6 +333,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QD7C83FMRS;
 				INFOPLIST_FILE = "vision-app-dev/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.IceApinan.vision-app-dev";
 				PRODUCT_NAME = "$(TARGET_NAME)";
